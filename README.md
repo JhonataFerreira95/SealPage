@@ -1,2 +1,10 @@
 # SealPage
-Loading page sobre focas
+
+- Loading page para exercita algumas práticas de `css` e `html`, afim de se lápidar com tecnologias tão básica.
+
+## Estrutura do Projeto
+
+```bash
+
+
+```
