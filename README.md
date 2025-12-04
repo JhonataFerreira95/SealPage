@@ -7,7 +7,10 @@
 ```bash
 
 
-├── assets
+├── assets/
+│   └── img/
+│   └── video/
+│   └── icon.png
 ├── index.html
 ├── README.md
 └── style.css
