@@ -34,3 +34,20 @@ a{
     height: 100vh;
     z-index: -10;
 }
+
+.hero__foreground{
+    color: var(--color-white);
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.hero__title{
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.hero__text{
+    margin-top: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
