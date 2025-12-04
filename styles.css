@@ -120,12 +120,28 @@ a{
 }
 
 .gallery__img-wrapper + .gallery__img-wrapper{
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 .gallery__img-wrapper:nth-child(even) > .gallery__img{
     transform: rotate(2deg);
     top: 1rem;
+}
+
+.gallery__img-wrapper::after{
+    content: "";
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: rgb(228, 26, 26);
+    display: block;
+    position: absolute;
+    top: 0.25rem;
+    right: 1rem;
+    border-radius: 0.75rem;
+}
+
+.gallery__img-wrapper:nth-child(even)::after{
+    left: 1rem;
 }
 
