@@ -57,7 +57,15 @@ a{
     padding: 0 8rem;
 }
 
+.section__title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 4rem auto;
+}
+
 .section__img,
 .section__img-inline{
-
-}
+    width: 100%;
+    border-radius: 0.75rem; 
+    box-shadow: 0 1rem rgba(20, 116, 180, 0.25);
+} 
