@@ -72,6 +72,17 @@ a{
     object-fit: cover;
     object-position: top;
     position: relative;
-    max-width: 30rem;
+    max-height: 30rem;
 } 
 
+.section__text,
+.section__texto-inline{
+    font-size: 1.25rem;
+    line-height: 1.75;
+    margin: 4rem auto;
+}
+
+.section__img-inline{
+    float: left;
+    height: ;
+}
