@@ -102,4 +102,30 @@ a{
     margin-top: 1.5rem;
 }
 
+#hangouts img{
+    object-position: center;
+}
+
+.gallery__img-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.gallery__img{
+    border-radius: 0.75rem;
+    height: 16rem;
+    width: 16rem;
+    object-fit: cover;
+    transform: rotate(-2deg);
+}
+
+.gallery__img-wrapper + .gallery__img-wrapper{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.gallery__img-wrapper:nth-child(even) > .gallery__img{
+    transform: rotate(2deg);
+    top: 1rem;
+}
 
