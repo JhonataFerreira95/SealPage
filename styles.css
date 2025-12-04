@@ -67,5 +67,11 @@ a{
 .section__img-inline{
     width: 100%;
     border-radius: 0.75rem; 
-    box-shadow: 0 1rem rgba(20, 116, 180, 0.25);
+    /* eixo x, eixo y, blur, expansão/recuo, cor */
+    box-shadow: 0 1rem 2rem -0.5rem rgba(20, 116, 180, 0.25);
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    max-width: 30rem;
 } 
+
